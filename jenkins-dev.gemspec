@@ -2,7 +2,7 @@ $:.push "#{File.dirname(__FILE__)}/lib"
 require "jenkins/dev/version"
 
 Gem::Specification.new do |s|
-  s.name        = "jenkins-dev-dev"
+  s.name        = "jenkins-dev"
   s.version     = Jenkins::Dev::VERSION
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Kohsuke Kawaguchi"]
